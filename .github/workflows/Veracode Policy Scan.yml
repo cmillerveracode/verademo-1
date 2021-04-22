@@ -42,4 +42,4 @@ jobs:
         filepath: 'target/verademo.war'
         vid: '${{ secrets.VERACODE_API_ID }}'
         vkey: '${{ secrets.VERACODE_API_KEY }}'
-        scantimeout: 20
+        scantimeout: 15
