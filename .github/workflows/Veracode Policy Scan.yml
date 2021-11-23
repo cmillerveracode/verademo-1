@@ -32,7 +32,7 @@ jobs:
         name: verademo.war
         path: target/verademo.war
             
-    # Upload and Scan with Veracode (Sandbox scan)
+    # Upload and Scan with Veracode (Policy scan)
     - name: Veracode Upload and Scan Action Step
       uses: veracode/veracode-uploadandscan-action@master
       id: upload_and_scan
